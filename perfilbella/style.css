@@ -1,0 +1,49 @@
+body{
+    background: #d2d2c1 url('fundo.png');
+    font: 16px Arial,Helvetica, sans serif;
+    color: rgb(31, 51, 51);
+}
+
+#principal {
+    
+    width:80%;
+}
+
+#menu {
+    background: #c5c5b2;
+    padding: 25px;
+}
+
+#conteudo{
+    background: #dbdbd1bd;
+    padding: 14px;
+    font-size: 18px;
+
+}
+
+#rodape{
+    text-align: center;
+}
+
+
+
+a {
+    display: inline-block; /* Necessário para aplicar transform */
+    font-size: 20px;
+    color: darkslategrey;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: transform 0.3s ease, 
+                box-shadow 0.3s ease, 
+                color 0.3s ease, 
+                background-color 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.1);
+    color: white;
+    background-color: #2b2c04bd; /* Azul de destaque */
+    box-shadow: 0 0 15px rgba(231, 223, 223, 0.815);
+}
